@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.container{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ui-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.hero-content{
+  width: 40%;
+}
+.caption{
+   font-size: 3.7rem;
+    font-weight: 700;
+    margin:0px;
+    color: #2b4b80;
+    font-family: "Poppins",sans-serif;
+    line-height: 1.2;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.Text3{
+  text-align: justify;
+  color: #707b8e;
+  font-size: 0.92rem;
+  font-weight: 400;
+}
+.Text2{
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0px;
+  color: #2b4b80;
+  font-family: "Poppins",sans-serif;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
