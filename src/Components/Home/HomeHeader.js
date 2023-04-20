@@ -18,12 +18,86 @@ const HomeHeader = () => {
             project to the next level and easily customisable. Just copy, paste
             our component and use.
           </p>
+          <button className="ClickMeBtn">Click Me</button>
         </div>
         <div className="hero-content">
           <img
             src="https://preview.colorlib.com/theme/seos/assets/img/hero/hero_right.png.webp"
             alt="RightSideImage"
           />
+        </div>
+      </div>
+      <div className="what-we-do we-padding">
+        <div className="TitleHeader">
+          <div className="TitleSection">What We Offer </div>
+          <div className="MainContaner">
+            <div className="ui-row-card">
+              <div className="card">
+                <div className="card-body">
+                  <div>Image</div>
+                  <div>
+                    <div>Text1</div>
+                    <div>Some Text</div>
+                    <button>View</button>
+                  </div>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-body">
+                  <div>Image</div>
+                  <div>
+                    <div>Text2</div>
+                    <div>Some Text</div>
+                    <button>View</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="ui-row-card">
+              <div className="card">
+                <div className="card-body">
+                  <div>Image</div>
+                  <div>
+                    <div>Text1</div>
+                    <div>Some Text</div>
+                    <button>View</button>
+                  </div>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-body">
+                  <div>Image</div>
+                  <div>
+                    <div>Text2</div>
+                    <div>Some Text</div>
+                    <button>View</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="ui-row-card">
+              <div className="card">
+                <div className="card-body">
+                  <div>Image</div>
+                  <div>
+                    <div>Text1</div>
+                    <div>Some Text</div>
+                    <button>View</button>
+                  </div>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-body">
+                  <div>Image</div>
+                  <div>
+                    <div>Text2</div>
+                    <div>Some Text</div>
+                    <button>View</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
