@@ -28,23 +28,26 @@ const HomeHeader = () => {
         </div>
       </div>
       <div className="what-we-do we-padding">
-        <div className="TitleHeader">
+        <div className="Title">
           <div className="TitleSection">What We Offer </div>
           <div className="MainContaner">
             <div className="ui-row-card">
               <div className="card">
                 <div className="card-body">
-                  <div>Image</div>
+                  <div className="iconAlign">Image</div>
                   <div>
-                    <div>Text1</div>
-                    <div>Some Text</div>
+                    <div className="CardHeader">Tables</div>
+                    <div className="CardText">
+                      lIrure nulla cupidatat qui commodo cupidatat ex sunt
+                      fugiat aute sint qui.
+                    </div>
                     <button>View</button>
                   </div>
                 </div>
               </div>
               <div className="card">
                 <div className="card-body">
-                  <div>Image</div>
+                  <div className="iconAlign">Image</div>
                   <div>
                     <div>Text2</div>
                     <div>Some Text</div>
@@ -56,6 +59,28 @@ const HomeHeader = () => {
             <div className="ui-row-card">
               <div className="card">
                 <div className="card-body">
+                  <div className="iconAlign">Image</div>
+                  <div>
+                    <div>Text3</div>
+                    <div>Some Text</div>
+                    <button>View</button>
+                  </div>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-body">
+                  <div className="iconAlign">Image</div>
+                  <div>
+                    <div>Text4</div>
+                    <div>Some Text</div>
+                    <button>View</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <div className="ui-row-card">
+              <div className="card">
+                <div className="card-body">
                   <div>Image</div>
                   <div>
                     <div>Text1</div>
@@ -74,29 +99,7 @@ const HomeHeader = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="ui-row-card">
-              <div className="card">
-                <div className="card-body">
-                  <div>Image</div>
-                  <div>
-                    <div>Text1</div>
-                    <div>Some Text</div>
-                    <button>View</button>
-                  </div>
-                </div>
-              </div>
-              <div className="card">
-                <div className="card-body">
-                  <div>Image</div>
-                  <div>
-                    <div>Text2</div>
-                    <div>Some Text</div>
-                    <button>View</button>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
