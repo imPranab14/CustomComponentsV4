@@ -34,24 +34,39 @@ const HomeHeader = () => {
             <div className="ui-row-card">
               <div className="card">
                 <div className="card-body">
-                  <div className="iconAlign">Image</div>
+                  <div className="iconAlign">
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/512/8633/8633185.png"
+                      alt="RightSideImage"
+                      width="40px"
+                    />
+                  </div>
                   <div>
                     <div className="CardHeader">Tables</div>
                     <div className="CardText">
                       lIrure nulla cupidatat qui commodo cupidatat ex sunt
                       fugiat aute sint qui.
                     </div>
-                    <button>View</button>
+                    <button className="CardBtn">View</button>
                   </div>
                 </div>
               </div>
               <div className="card">
                 <div className="card-body">
-                  <div className="iconAlign">Image</div>
+                  <div className="iconAlign">
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/512/8633/8633185.png"
+                      alt="RightSideImage"
+                      width="40px"
+                    />
+                  </div>
                   <div>
-                    <div>Text2</div>
-                    <div>Some Text</div>
-                    <button>View</button>
+                    <div className="CardHeader">Carousels</div>
+                    <div className="CardText">
+                      lIrure nulla cupidatat qui commodo cupidatat ex sunt
+                      fugiat aute sint qui.
+                    </div>
+                    <button className="CardBtn">View</button>
                   </div>
                 </div>
               </div>
@@ -59,21 +74,39 @@ const HomeHeader = () => {
             <div className="ui-row-card">
               <div className="card">
                 <div className="card-body">
-                  <div className="iconAlign">Image</div>
+                  <div className="iconAlign">
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/512/8633/8633185.png"
+                      alt="RightSideImage"
+                      width="40px"
+                    />
+                  </div>
                   <div>
-                    <div>Text3</div>
-                    <div>Some Text</div>
-                    <button>View</button>
+                    <div className="CardHeader">Tables</div>
+                    <div className="CardText">
+                      lIrure nulla cupidatat qui commodo cupidatat ex sunt
+                      fugiat aute sint qui.
+                    </div>
+                    <button className="CardBtn">View</button>
                   </div>
                 </div>
               </div>
               <div className="card">
                 <div className="card-body">
-                  <div className="iconAlign">Image</div>
+                  <div className="iconAlign">
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/512/8633/8633185.png"
+                      alt="RightSideImage"
+                      width="40px"
+                    />
+                  </div>
                   <div>
-                    <div>Text4</div>
-                    <div>Some Text</div>
-                    <button>View</button>
+                    <div className="CardHeader">Tables</div>
+                    <div className="CardText">
+                      lIrure nulla cupidatat qui commodo cupidatat ex sunt
+                      fugiat aute sint qui.
+                    </div>
+                    <button className="CardBtn">View</button>
                   </div>
                 </div>
               </div>

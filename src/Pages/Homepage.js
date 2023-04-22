@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
 import HomeHeader from "../Components/Home/HomeHeader";
-
+import Carousels from "../Components/HomePageCarousels/Carousels";
 const Home = () => {
   return (
     <div>
       <HomeHeader />
+
       <div>
+        <div>
+          <Carousels />
+        </div>
         {/* <div style={{ padding: " 5vh 15vw", backgroundColor: "#61dafb", color: "#1e1e2e", fontSize: "22px" }}>
                     We offer a wide range of custom-built components designed to enhance your
                     web development experience. From tables with advanced sorting, filtering , import and export features,
