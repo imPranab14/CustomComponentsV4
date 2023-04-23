@@ -24,6 +24,7 @@ const HomeHeader = () => {
           <img
             src="https://preview.colorlib.com/theme/seos/assets/img/hero/hero_right.png.webp"
             alt="RightSideImage"
+            width="512px"
           />
         </div>
       </div>
@@ -38,16 +39,16 @@ const HomeHeader = () => {
                     <img
                       src="https://cdn-icons-png.flaticon.com/512/8633/8633185.png"
                       alt="RightSideImage"
-                      width="40px"
+                      width="45px"
                     />
                   </div>
                   <div>
                     <div className="CardHeader">Tables</div>
                     <div className="CardText">
                       lIrure nulla cupidatat qui commodo cupidatat ex sunt
-                      fugiat aute sint qui.
+                      fugiat aute sint qui nulla cupidatat qui.
                     </div>
-                    <button className="CardBtn">View</button>
+                    {/* <button className="CardBtn">View</button> */}
                   </div>
                 </div>
               </div>
@@ -57,16 +58,16 @@ const HomeHeader = () => {
                     <img
                       src="https://cdn-icons-png.flaticon.com/512/8633/8633185.png"
                       alt="RightSideImage"
-                      width="40px"
+                      width="45px"
                     />
                   </div>
                   <div>
                     <div className="CardHeader">Carousels</div>
                     <div className="CardText">
                       lIrure nulla cupidatat qui commodo cupidatat ex sunt
-                      fugiat aute sint qui.
+                      fugiat aute sint qui nulla cupidatat qui.
                     </div>
-                    <button className="CardBtn">View</button>
+                    {/* <button className="CardBtn">View</button> */}
                   </div>
                 </div>
               </div>
@@ -78,16 +79,16 @@ const HomeHeader = () => {
                     <img
                       src="https://cdn-icons-png.flaticon.com/512/8633/8633185.png"
                       alt="RightSideImage"
-                      width="40px"
+                      width="45px"
                     />
                   </div>
                   <div>
-                    <div className="CardHeader">Tables</div>
+                    <div className="CardHeader">Popups</div>
                     <div className="CardText">
                       lIrure nulla cupidatat qui commodo cupidatat ex sunt
-                      fugiat aute sint qui.
+                      fugiat aute sint qui nulla cupidatat qui.
                     </div>
-                    <button className="CardBtn">View</button>
+                    {/* <button className="CardBtn">View</button> */}
                   </div>
                 </div>
               </div>
@@ -97,16 +98,15 @@ const HomeHeader = () => {
                     <img
                       src="https://cdn-icons-png.flaticon.com/512/8633/8633185.png"
                       alt="RightSideImage"
-                      width="40px"
+                      width="45px"
                     />
                   </div>
                   <div>
-                    <div className="CardHeader">Tables</div>
+                    <div className="CardHeader">PopOver</div>
                     <div className="CardText">
                       lIrure nulla cupidatat qui commodo cupidatat ex sunt
-                      fugiat aute sint qui.
+                      fugiat aute sint qui nulla cupidatat qui.
                     </div>
-                    <button className="CardBtn">View</button>
                   </div>
                 </div>
               </div>

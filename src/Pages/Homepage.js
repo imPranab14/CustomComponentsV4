@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import HomeHeader from "../Components/Home/HomeHeader";
 import Carousels from "../Components/HomePageCarousels/Carousels";
+import Footer from "../Components/Footer/Footer";
+import OurJourney from "../Components/OurJourney/OurJourney";
+import UpcomingComp from "../Components/UpcomingComp/UpcomingComp";
 const Home = () => {
   return (
     <div>
@@ -10,6 +13,15 @@ const Home = () => {
         <div>
           <Carousels />
         </div>
+
+        <div>
+          <UpcomingComp />
+        </div>
+
+        <diV>
+          <OurJourney />
+        </diV>
+
         {/* <div style={{ padding: " 5vh 15vw", backgroundColor: "#61dafb", color: "#1e1e2e", fontSize: "22px" }}>
                     We offer a wide range of custom-built components designed to enhance your
                     web development experience. From tables with advanced sorting, filtering , import and export features,
@@ -19,9 +31,9 @@ const Home = () => {
                 </div> */}
 
         <h3></h3>
-        <h3>Tables</h3>
+        {/* <h3>Tables</h3> */}
 
-        <p>
+        {/* <p>
           Tables are one of the most commonly used components in dashboard and
           reporting systems. However, designing tables having features such as
           sorting , filtering , Editing , etc can be challenging and
@@ -51,7 +63,7 @@ const Home = () => {
             <li>Expand</li>
             <li>CRUD with Import Export</li>
           </ol>
-        </p>
+        </p> */}
       </div>
 
       {/* <div>
@@ -111,8 +123,8 @@ const Home = () => {
             </div> */}
 
       <div>
-        <h2>Our Journey</h2>
-        <p>
+        {/* <h2>Our Journey</h2> */}
+        {/* <p>
           Building a dashboard and reporting system can be a challenging task,
           especially when it comes to designing and creating tables. As a
           developer, I have faced many difficulties while building such systems,
@@ -156,40 +168,43 @@ const Home = () => {
           hard to find components to our dashboard and reporting system. These
           components are still in development, and we will add them in the next
           few days..
-        </p>
+        </p> */}
       </div>
 
       <div>
-        <h2>Newly Added components</h2>
+        {/* <h2>Newly Added components</h2>
         <ul>
           <li>Sortable Table</li>
           <li>Filterable Table</li>
           <li>Editable Table</li>
           <li>Expandable Table</li>
-          <li>CRUD Import Export</li>
+          <li>CRUD Import Export</li> */}
 
-          {/* <li>MultiHeader Table</li>
+        {/* <li>MultiHeader Table</li>
                     <li>MultiSelect Dropdown</li>
                     <li>Diagram</li>
                     <li>Colorpicker</li>
                     <li>Dynamic Form</li> */}
-        </ul>
+        {/* </ul> */}
       </div>
 
-      <div>
+      {/* <div>
         <h2>Upcoming Components</h2>
         <ul>
           <li>MultiHeader Table</li>
           <li>Carousels</li>
           <li>Collapsible</li>
-          <li>Dynamic Navbar</li>
-          {/* <li>Diagram</li> */}
-          {/* <li>Colorpicker</li> */}
-          {/* <li>Dynamic Form</li> */}
-        </ul>
-      </div>
+          <li>Dynamic Navbar</li> */}
+      {/* <li>Diagram</li> */}
+      {/* <li>Colorpicker</li> */}
+      {/* <li>Dynamic Form</li> */}
+      {/* </ul>
+      </div> */}
 
-      <div id="footerHomepage">footer</div>
+      {/* <div id="footerHomepage">footer</div> */}
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };
