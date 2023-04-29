@@ -45,10 +45,11 @@ const Carousels = () => {
 
 
               <div>
-                <HorizontalSlider imagesDataSet={imagesDataSet} imagesDir={imagesDir} />
+                
               </div>
             </div>
           </div>
+          
         </div>
         {/* <div className="card">
           <div className="card-body">
