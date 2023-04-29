@@ -3,7 +3,7 @@ import "./HomeHeader.css";
 const HomeHeader = () => {
   return (
     <div className="container">
-      <div className="ui-row">
+      <div className="ui-rowNew">
         <div className="hero-content">
           <h1 className="caption">
             Elevate Your <br /> React Experience
@@ -20,7 +20,7 @@ const HomeHeader = () => {
           </p>
           <button className="ClickMeBtn">Explore</button>
         </div>
-        <div className="hero-content">
+        <div className="hero-contentImgage">
           <img
             src="https://preview.colorlib.com/theme/seos/assets/img/hero/hero_right.png.webp"
             alt="RightSideImage"
