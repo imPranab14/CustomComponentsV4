@@ -1,28 +1,27 @@
 import { Link } from "react-router-dom";
-import HomeHeader from "../Components/Home/HomeHeader";
-import Carousels from "../Components/HomePageCarousels/Carousels";
-import Footer from "../Components/Footer/Footer";
-import OurJourney from "../Components/OurJourney/OurJourney";
-import UpcomingComp from "../Components/UpcomingComp/UpcomingComp";
+import HomeHeader from "../Components/Home/Header/HomeHeader";
+import Carousels from "../Components/Home/ComponentShowcase/Carousels";
+import OurJourney from "../Components/Home/OurJourney/OurJourney";
+import UpcomingComp from "../Components/Home/UpcomingComp/UpcomingComp";
 const Home = () => {
-  return (
-    <div>
-      <HomeHeader />
-
-      <div>
+    return (
         <div>
-          <Carousels />
-        </div>
+            <HomeHeader />
 
-        <div>
-          <UpcomingComp />
-        </div>
+            <div>
+                <div>
+                    <Carousels />
+                </div>
 
-        <diV>
-          <OurJourney />
-        </diV>
+                <div>
+                    <UpcomingComp />
+                </div>
 
-        {/* <div style={{ padding: " 5vh 15vw", backgroundColor: "#61dafb", color: "#1e1e2e", fontSize: "22px" }}>
+                <diV>
+                    <OurJourney />
+                </diV>
+
+                {/* <div style={{ padding: " 5vh 15vw", backgroundColor: "#61dafb", color: "#1e1e2e", fontSize: "22px" }}>
                     We offer a wide range of custom-built components designed to enhance your
                     web development experience. From tables with advanced sorting, filtering , import and export features,
                     to carousels, cards, forms, popups, popovers, and collapse panels, our components are
@@ -30,10 +29,10 @@ const Home = () => {
                     to the next level and easily customisable. Just copy, paste our component and use.
                 </div> */}
 
-        <h3></h3>
-        {/* <h3>Tables</h3> */}
+                <h3></h3>
+                {/* <h3>Tables</h3> */}
 
-        {/* <p>
+                {/* <p>
           Tables are one of the most commonly used components in dashboard and
           reporting systems. However, designing tables having features such as
           sorting , filtering , Editing , etc can be challenging and
@@ -64,9 +63,9 @@ const Home = () => {
             <li>CRUD with Import Export</li>
           </ol>
         </p> */}
-      </div>
+            </div>
 
-      {/* <div>
+            {/* <div>
                 <h3>Carousel</h3>
 
                 <p>
@@ -80,7 +79,7 @@ const Home = () => {
                 </p>
             </div> */}
 
-      {/* <div>
+            {/* <div>
                 <h3>Popups</h3>
                 <p>
                     <ol>
@@ -92,7 +91,7 @@ const Home = () => {
             </div>
  */}
 
-      {/* <div id="cards">
+            {/* <div id="cards">
 
 
                 <h2>Cards</h2>
@@ -104,7 +103,7 @@ const Home = () => {
                 </p>
             </div> */}
 
-      {/* <div>
+            {/* <div>
                 <h2>Collapsible</h2>
                 <p>
                     <ol>
@@ -113,7 +112,7 @@ const Home = () => {
                 </p>
             </div> */}
 
-      {/* <div>
+            {/* <div>
                 <h2>Popover</h2>
                 <p>
                     <ol>
@@ -122,9 +121,9 @@ const Home = () => {
                 </p>
             </div> */}
 
-      <div>
-        {/* <h2>Our Journey</h2> */}
-        {/* <p>
+            <div>
+                {/* <h2>Our Journey</h2> */}
+                {/* <p>
           Building a dashboard and reporting system can be a challenging task,
           especially when it comes to designing and creating tables. As a
           developer, I have faced many difficulties while building such systems,
@@ -169,10 +168,10 @@ const Home = () => {
           components are still in development, and we will add them in the next
           few days..
         </p> */}
-      </div>
+            </div>
 
-      <div>
-        {/* <h2>Newly Added components</h2>
+            <div>
+                {/* <h2>Newly Added components</h2>
         <ul>
           <li>Sortable Table</li>
           <li>Filterable Table</li>
@@ -180,33 +179,29 @@ const Home = () => {
           <li>Expandable Table</li>
           <li>CRUD Import Export</li> */}
 
-        {/* <li>MultiHeader Table</li>
+                {/* <li>MultiHeader Table</li>
                     <li>MultiSelect Dropdown</li>
                     <li>Diagram</li>
                     <li>Colorpicker</li>
                     <li>Dynamic Form</li> */}
-        {/* </ul> */}
-      </div>
+                {/* </ul> */}
+            </div>
 
-      {/* <div>
+            {/* <div>
         <h2>Upcoming Components</h2>
         <ul>
           <li>MultiHeader Table</li>
           <li>Carousels</li>
           <li>Collapsible</li>
           <li>Dynamic Navbar</li> */}
-      {/* <li>Diagram</li> */}
-      {/* <li>Colorpicker</li> */}
-      {/* <li>Dynamic Form</li> */}
-      {/* </ul>
+            {/* <li>Diagram</li> */}
+            {/* <li>Colorpicker</li> */}
+            {/* <li>Dynamic Form</li> */}
+            {/* </ul>
       </div> */}
 
-      {/* <div id="footerHomepage">footer</div> */}
-      <div>
-        <Footer />
-      </div>
-    </div>
-  );
+        </div>
+    );
 };
 
 export default Home;

@@ -7,23 +7,23 @@ nav {
   font-size: 0.9rem;
 }
 
-ul {
+.ul-nav {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-li {
+.li-nav {
   margin-left: 20px;
 }
 
-a {
+.nav-link {
   color: #fff;
   text-decoration: none;
 }
 
-a:hover {
+.nav-link:hover {
   color: #ff5c97;
 }
 
@@ -31,7 +31,7 @@ a:hover {
   position: relative;
 }
 
-.dropdown a {
+.dropdown .nav-link {
   display: flex;
   align-items: center;
 }
@@ -52,17 +52,23 @@ a:hover {
   display: block;
 }
 
-.dropdown-menu li {
+.dropdown-menu .li-nav {
   margin: 0;
   padding: 0;
 }
 
-.dropdown-menu li a {
+.dropdown-menu .li-nav .nav-link {
   display: block;
   padding: 10px;
 }
 
-.dropdown-menu li a:hover {
+.dropdown-menu .li-nav .nav-link:hover {
   background-color: #d6c7cd38;
   color: white;
+}
+
+.stickyNavBar {
+  position: sticky;
+  top: 0;
+  z-index: 5000;
 }
