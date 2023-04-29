@@ -216,7 +216,7 @@ const Tables = ({ upDateData, data, expandableTableData, colmns }) => {
     }, []);
 
     return (
-        <div>
+        <div className={TableStyle.MainBody}>
             {/* ------------------------------------------------------------------Sortable------------------------------------------- */}
             <div id="sortable">
                 {/* Sortable */}

@@ -78,13 +78,10 @@ table {
 }
 
 th {
-  text-align: left;
-  padding: 0.5rem 0.7rem;
-  border: 1px solid #dee2e6;
-  border-width: 0 0 1px 0;
-  font-weight: 700;
-  color: #005ab4;
-  background: #f8f9fa;
+  font-weight: 700 !important;
+    color: #495057 !important;
+    padding-left: 0 !important;
+    font-size: 0.82rem !important;
 }
 
 td {
