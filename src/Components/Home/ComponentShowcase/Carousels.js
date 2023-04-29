@@ -1,9 +1,13 @@
 import "./Carousels.css";
 import HorizontalSlider from "../../../CustomComponents/Slider/HorizontalCarousel/HorizontalSlider";
 
+
 import imagesDataSet from "../../../data/HomepageCarouselGifs/TableGrifs";
 
 const imagesDir = require.context("../../../storage/gifs/tables", true);
+
+
+
 
 const Carousels = () => {
   return (
@@ -35,50 +39,17 @@ const Carousels = () => {
                   can implement their logic easily and get the desired results
                   in less time.
                   <br />
+                  <br />
                 </p>
               </div>
-            </div>
-          </div>
-          <div className="card-body">
-            <div>
-              <div className="CardHeader">Demo</div>
-              <div className="CardText VideoCard">
-                <div className="cardNew">
-                  <div className="card-body CardAlign">
-                    <p>Table 1</p>
-                    <button>asfhsgef</button>
-                  </div>
-                </div>
-                <div className="cardNew">
-                  <div className="card-body">
-                    card2
-                  </div>
-                </div>
-                <div className="cardNew">
-                  <div className="card-body">
-                    card3
-                  </div>
-                </div>
-                <div className="cardNew">
-                  <div className="card-body">
-                    card4
-                  </div>
-                </div>
-                <div className="cardNew">
-                  <div className="card-body">
-                    card5
-                  </div>
-                </div>
-                <div className="cardNew">
-                  <div className="card-body">
-                    card6
-                  </div>
-                </div>
+
+
+              <div>
+                <HorizontalSlider imagesDataSet={imagesDataSet} imagesDir={imagesDir} />
               </div>
             </div>
           </div>
         </div>
-
         {/* <div className="card">
           <div className="card-body">
             <div className="iconAlign">
