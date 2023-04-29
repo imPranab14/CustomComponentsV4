@@ -50,13 +50,13 @@ const Carousels = () => {
                   <button>View</button>
                 </div>
               </div>
-              <div className="cardNew CardSpace">
-                <div className="card-body CardAlign">
+              <div className="cardNew CardSpace ">
+                <div className="card-body CardAlign CardAlignNew">
                   <p>Filterable Table</p>
                   <button>View</button>
                 </div>
               </div>
-              <div className="cardNew CardSpace">
+              <div className="cardNew">
                 <div className="card-body CardAlign">
                   <p>Editable Table</p>
                   <button>View</button>
@@ -64,19 +64,19 @@ const Carousels = () => {
               </div>
               <div className="cardNew">
                 <div className="card-body CardAlign">
-                  <p>Sort Filter and Edit together Table</p>
+                  <p>Sort Filter and </p>
                   <button>View</button>
                 </div>
               </div>
               <div className="cardNew">
                 <div className="card-body CardAlign">
-                  <p>Expandable Table With component</p>
+                  <p>Expandable Table t</p>
                   <button>View</button>
                 </div>
               </div>
               <div className="cardNew">
                 <div className="card-body CardAlign">
-                  <p>CRUD Import Export Table</p>
+                  <p>CRUD Import  </p>
                   <button>View</button>
                 </div>
               </div>

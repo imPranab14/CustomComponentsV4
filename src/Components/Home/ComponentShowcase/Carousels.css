@@ -170,4 +170,11 @@ body{
   .CardSpace{
     padding: 2px !important;
   }
+  .CardAlignNew{
+    display: grid !important;
+    justify-content: center !important;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+  }
   
