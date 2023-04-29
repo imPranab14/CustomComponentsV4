@@ -87,9 +87,18 @@ body{
 
 .tableTitle {
   text-align: center;
+  font-size: 1.6rem !important;
 }
 
 .horizontalDivider {
-  border-top: 3px solid #bbb;
-  margin-top: 100px;
+  border-top: 2px dashed #acb1b794;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/*-------------MobileView--------*/
+@media only screen and (max-width: 600px) {
+  .tableTitle {
+    font-size: 1rem !important;
+  }
 }

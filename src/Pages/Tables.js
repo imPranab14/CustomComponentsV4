@@ -709,13 +709,13 @@ const Tables = ({ upDateData, data, expandableTableData, colmns }) => {
 
 
             {/* --------------------------------------------------------------- Expandable table----------------------------------------- */}
-            <hr class={TableStyle.horizontalDivider}></hr>
+            {/* <hr class={TableStyle.horizontalDivider}></hr>
             <div id="recursiveExpandable">
 
-                <h1 className={TableStyle.tableTitle}>Expandable Table</h1>
+                <h1 className={TableStyle.tableTitle}>Expandable Table</h1> */}
 
                 {/* Expandable table */}
-                {dummyData && columns && (
+                {/* {dummyData && columns && (
                     <Expandable
                         data={expandableTableData}
                         columns={columns}
@@ -782,7 +782,7 @@ const Tables = ({ upDateData, data, expandableTableData, colmns }) => {
                         Expanable Table
                     </a>
                 </h4>
-            </div>
+            </div> */}
 
             {/* ------------------------------------------------------------- Expandable table ------------------------------------------- */}
 
